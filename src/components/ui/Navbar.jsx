@@ -7,7 +7,6 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import SearchBar from "../Searchbar";
 import { Menu,User } from "lucide-react";
 
 export default function Navbar({ isExpanded, setIsExpanded }) {
