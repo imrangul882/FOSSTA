@@ -11,7 +11,7 @@ import {
   CardFooter 
 } from "./card";
 
-import { Button } from "./button";
+import { Button } from "./Button";
 import { Star, ShoppingCart } from "lucide-react";
 export default function PropertyCard({ item }) {
   if (!item) return null;

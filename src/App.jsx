@@ -2,11 +2,10 @@ import "./App.css";
 import { useState, useEffect } from "react";
 import Navbar from "./components/ui/Navbar";
 import PropertyCarousel from "./components/PropertyCarousel";
-import SearchBar from "./components/SearchBar";
-import { Button } from "./components/ui/button";
+import SearchBar from "./components/SearchBar.jsx";
+import { Button } from "./components/ui/Button";
 import { Star, Gem, ArrowLeft } from "lucide-react";
-import ReserveModal from "./components/ui/ReserveModal";
-
+import ReserveModal from "./components/ui/ReserveModal.jsx";
 // Property objects (same as before)
 const property1 = {
   title: "Super Car",
